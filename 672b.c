@@ -4,7 +4,7 @@ int main ()
 {int i,m=0,j,n,f;
 scanf("%d",&n);
 char s[n],k[n];
-scanf("%s",s);
+scanf("%s",s);    //gdajgyjda
 for(i=0;i<n;i++)
 {f=m;
 if(strlen(k)>=26)
