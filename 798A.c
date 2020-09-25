@@ -3,13 +3,13 @@
 int main()
 {
 	int a = 0,i,b;
-	char str[15];
-	scanf("%s", str);
-	b=strlen(str);
+	char s[15];
+	scanf("%s", s);
+	b=strlen(s);
 	if(b%2 != 0)
 		{for(i=0;i<b/2+1;i++)
 	{
-		if(str[i]!=str[b-i-1])
+		if(s[i]!=s[b-i-1])
 		{
 			a++;
 		}
@@ -20,7 +20,7 @@ int main()
 	else{
 		for(i=0;i<b/2;i++)
 	{
-		if(str[i]!=str[b-i-1])
+		if(str[i]!=s[b-i-1])
 		{
 			a++;
 		}
